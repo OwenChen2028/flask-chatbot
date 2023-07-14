@@ -24,7 +24,6 @@ body {
     box-sizing: border-box;
 }
 
-
 .message {
     padding: 10px 15px; 
     margin: 8px 5px;
@@ -34,7 +33,6 @@ body {
     word-wrap: break-word;
     line-height: 1.5;
 }
-
 
 .user-message {
     background-color: #0084FF;
@@ -72,28 +70,30 @@ body {
 }
 
 #message-input {
-    flex-grow: 1;
+    flex: 1 1 auto;
     border: 1px solid #ccc;
     padding: 10px 15px 10px 10px;
     border-radius: 5px;
-    margin-right: 10px;
     box-sizing: border-box;
     font-size: 16px;
+    min-width: 0;
+    margin-right: 10px; 
 }
 
 .submit-button {
-    width: 80px;
+    flex: 0 0 auto;
+    width: auto; 
     background-color: #0084FF;
     color: #fff;
     border: none;
     border-radius: 5px;
-    padding: 10px 0;
+    padding: 10px 15px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;
     font-size: 16px;
 }
 
-.submit-button:hover {
+.submit-button:active {
     background-color: #0066cc;
 }
