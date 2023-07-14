@@ -15,7 +15,7 @@ git clone https://github.com/ilikeovensalot/flask-chatgpt.git
 Navigate to the cloned repository's directory by running the following command:
 
 ```
-cd Flask-ChatGPT
+cd flask-chatgpt
 ```
 
 ## Install Dependencies
