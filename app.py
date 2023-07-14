@@ -8,7 +8,8 @@ openai.api_key = os.getenv('OPENAI_KEY')
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    initial_message = {"role": "assistant", "content": "Hello! How can I assist you today?"}
+    return render_template('index.html', initial_message=initial_message)
 
 @app.route('/echo', methods=['POST'])
 def echo():

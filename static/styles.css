@@ -24,6 +24,7 @@ body {
     box-sizing: border-box;
 }
 
+
 .message {
     padding: 10px 15px; 
     margin: 10px 5px;
@@ -33,6 +34,7 @@ body {
     word-wrap: break-word;
     line-height: 1.5;
 }
+
 
 .user-message {
     background-color: #0084FF;

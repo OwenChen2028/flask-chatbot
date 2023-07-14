@@ -1,4 +1,4 @@
-var conversation = [];
+var conversation = [initialMessage];
 
 $(document).ready(function(){
     $('#echo-form').on('submit', function(e) {

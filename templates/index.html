@@ -8,20 +8,27 @@
 </head>
 <body>
     <div id="chat-box">
-        <div id="conversation">
-        {% for message in conversation %}
-            {% if message.role == 'user' %}
-                <div class="message user-message">{{ message.content }}</div>
-            {% elif message.role == 'assistant' %}
-                <div class="message server-message">{{ message.content }}</div>
-            {% endif %}
-        {% endfor %}
-        </div>
+		<div id="conversation">
+			{% if initial_message.content %}
+				<div class="message server-message">{{ initial_message.content }}</div>
+			{% endif %}
+			{% for message in conversation %}
+				{% if message.role == 'user' %}
+					<div class="message user-message">{{ message.content }}</div>
+				{% elif message.role == 'assistant' %}
+					<div class="message server-message">{{ message.content }}</div>
+				{% endif %}
+			{% endfor %}
+		</div>
     </div>
     <form id="echo-form">
         <input type="text" id="message-input" placeholder="Enter your message">
         <button type="submit" class="submit-button">Send</button>
     </form>
+	<script>
+		var initialMessage = {{ initial_message | tojson }};
+		var conversation = initialMessage.content ? [initialMessage] : [];
+	</script>
     <script src="/static/main.js"></script>
 </body>
 </html>
