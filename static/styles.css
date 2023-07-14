@@ -89,11 +89,10 @@ body {
     border-radius: 5px;
     padding: 10px 15px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     text-align: center;
     font-size: 16px;
 }
 
 .submit-button:active {
-    background-color: #0066cc;
+    background-color: #0068cc;
 }
