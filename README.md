@@ -7,7 +7,7 @@ This repository contains the code for integrating ChatGPT with a simple Flask we
 Clone the repository by running the following command:
 
 ```
-git clone https://github.com/Your-Username/Flask-ChatGPT.git
+git clone https://github.com/ilikeovensalot/flask-chatgpt.git
 ```
 
 ## Navigate to the Directory
