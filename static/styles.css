@@ -92,6 +92,7 @@ body {
     outline: 2px solid black;
     outline-offset: -2px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	border-radius: 5px;
 }
 
 .submit-button {
