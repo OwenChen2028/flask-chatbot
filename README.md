@@ -1,5 +1,7 @@
 # Flask Chatbot
 
+Flask Chatbot © 2023 by Owen Chen is licensed under CC BY 4.0 
+
 ![image](https://github.com/user-attachments/assets/2ac563a3-ff7a-41fd-a86d-3c722f861056)
 
 This repository contains the code for a chatbot web app made using Python Flask. It utilizes OpenAI's API to generate responses. Please follow the setup instructions below.
