@@ -1,6 +1,6 @@
-# Flask Chatbot App
+# Flask Chatbot Web App
 
-This repository contains the code for a chatbot app made using Python Flask. Please follow the setup instructions below.
+This repository contains the code for a chatbot web app made using Python Flask. It utilizes OpenAI's API to generate responses. Please follow the setup instructions below.
 
 ## Clone the Repository
 
