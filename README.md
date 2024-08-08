@@ -1,6 +1,6 @@
-# Flask ChatGPT Integration
+# Flask Chatbot App
 
-This repository contains the code for integrating ChatGPT with a simple Flask web application using Python. It provides a local server for testing purposes and demonstrates how to leverage the power of ChatGPT for interactive conversations within a web-based platform. Explore the code and follow the setup instructions to start integrating ChatGPT into your web applications.
+This repository contains the code for a chatbot app made using Python Flask. Please follow the setup instructions below.
 
 ## Clone the Repository
 
@@ -49,7 +49,3 @@ This will start the server on `http://localhost:5000`.
 ## Interact with ChatGPT
 
 Open your web browser and visit `http://localhost:5000` to interact with the ChatGPT integrated Flask application. You can send POST requests to `http://localhost:5000/echo` to interact with the ChatGPT model. The payload should be a JSON object containing a `message` and an optional `conversation` list.
-
-## Additional Steps
-
-Please note that the provided instructions assume you have the necessary access and credentials to set up and configure the OpenAI API. Make sure to replace the placeholder value in the `.env` file and follow the respective platform's documentation for accurate setup. If you have any further questions or issues, please let us know. Happy testing!
