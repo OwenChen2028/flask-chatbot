@@ -1,5 +1,7 @@
 # Flask Chatbot Web App
 
+![image](https://github.com/user-attachments/assets/755487b8-5449-4778-aac8-008c87dfb02f)
+
 This repository contains the code for a chatbot web app made using Python Flask. It utilizes OpenAI's API to generate responses. Please follow the setup instructions below.
 
 ## Clone the Repository
