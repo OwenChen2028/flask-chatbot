@@ -1,4 +1,4 @@
-# Flask Chatbot Web App
+# Flask Chatbot
 
 ![image](https://github.com/user-attachments/assets/2ac563a3-ff7a-41fd-a86d-3c722f861056)
 
