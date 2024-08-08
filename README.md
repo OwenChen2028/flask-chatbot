@@ -48,4 +48,4 @@ This will start the server on `http://localhost:5000`.
 
 ## Interact with the Chatbot
 
-Open your web browser and visit `http://localhost:5000` to interact with the ChatGPT integrated Flask application. 
+Open your web browser and visit `http://localhost:5000` to interact with the chatbot.
