@@ -46,6 +46,6 @@ python app.py
 
 This will start the server on `http://localhost:5000`.
 
-## Interact with ChatGPT
+## Interact with the Chatbot
 
-Open your web browser and visit `http://localhost:5000` to interact with the ChatGPT integrated Flask application. You can send POST requests to `http://localhost:5000/echo` to interact with the ChatGPT model. The payload should be a JSON object containing a `message` and an optional `conversation` list.
+Open your web browser and visit `http://localhost:5000` to interact with the ChatGPT integrated Flask application. 
