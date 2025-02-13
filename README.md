@@ -1,6 +1,6 @@
 # Flask Chatbot
 
-Flask Chatbot © 2023 by Owen Chen is licensed under CC BY 4.0 
+Flask Chatbot © 2023 by Owen Chen is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) 
 
 ![image](https://github.com/user-attachments/assets/2ac563a3-ff7a-41fd-a86d-3c722f861056)
 
